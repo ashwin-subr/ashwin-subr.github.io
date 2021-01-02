@@ -1,0 +1,14 @@
+/* Contact us page */
+p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 18px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+}

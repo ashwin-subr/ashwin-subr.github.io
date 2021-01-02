@@ -1,0 +1,33 @@
+/* Webinars page */
+
+/* Aligns the slideshow in the center */
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+
+/*Override bootstrap styling for links */
+#override-bootstrap-link a {
+  text-decoration: none;
+}
+
+/*Override bootstrap styling for heading */
+#override-bootstrap-h1 {
+  color: white;
+}
+
+.content {
+  padding: 0% 3% 3%;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 24px;
+}
+
+.content-header {
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  color: black;
+  padding: 3% 3% 3%;
+}

@@ -1,0 +1,41 @@
+/* Meet the team page */
+.content-box div{
+  padding: 0% 10% 0% 3%;
+}
+
+.content-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content-box img {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  float: left;
+  border-radius: 50%;
+  width: 20%;
+  height: 10%;
+}
+
+.content-box p {
+  padding: 2% 5% 8% 3%;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 24px;
+}
+
+.content-box h3 {
+  padding: 3% 5% 0% 3%;
+}
+
+/* When screen is resized to mobile size */
+@media screen and (max-width: 800px) {
+  .content-box img {
+    width: 90%;
+    margin: 5%;
+    border-radius: 50%;
+  }
+}

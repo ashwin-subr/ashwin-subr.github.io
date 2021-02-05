@@ -15,10 +15,12 @@
 /*Override bootstrap styling for heading */
 #override-bootstrap-h1 {
   color: white;
+  margin-top: 0;
+  padding: 10% 20% 10% 20%;
 }
 
 .content {
-  padding: 0% 3% 3%;
+  padding: 0% 3% 2%;
   text-align: justify;
   font-family: "Lato", sans-serif;
   color: black;
@@ -29,5 +31,5 @@
   font-size: 36px;
   font-family: "Lato", sans-serif;
   color: black;
-  padding: 3% 3% 3%;
+  padding: 1% 3% 0%;
 }

@@ -17,9 +17,9 @@
 
 /* Change the color of links on hover */
 .navigation-bar a:hover {
+  opacity: 0.7;
+  text-decoration: none;
   background-color: #aaf0f2;
-  color: black;
-
 }
 
 /* Add a color to the active/current link */
@@ -38,16 +38,35 @@ h1 {
 }
 
 footer {
-  background-color: #DFDD01;
-  color: black;
+  background-color: #70BEC0;
+  color: white;
   text-align: center;
   margin-top: 2%;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
+}
+
+/* Style all font awesome icons */
+.socialIcons {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-envelope, .fa-instagram {
+  color: white;
+  width: 70px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: #DFDD01;
 }
 
 /* When screen is resized to mobile size */
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   /* Display links vertically when screen size is small */
   .navigation-bar a {
     color: black;
